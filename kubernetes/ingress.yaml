@@ -27,6 +27,9 @@ spec:
         backend:
           serviceName: map 
           servicePort: 9080
+      - path: /rooms
+        backend:
+          serviceName: room
       - path: /
         backend:
           serviceName: webapp
